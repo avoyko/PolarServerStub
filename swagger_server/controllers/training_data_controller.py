@@ -101,7 +101,7 @@ def get_fit(user_id, transaction_id, exercise_id):  # noqa: E501
 
     :rtype: str
     """
-    return 'do some magic!'
+    return TransactionLocation
 
 
 def get_gpx(user_id, transaction_id, exercise_id, include_pause_times=None):  # noqa: E501
