@@ -70,7 +70,7 @@ def get_exercise_summary(user_id, transaction_id, exercise_id):  # noqa: E501
 
     :rtype: Exercise
     """
-    id = 61111666
+    id = 100
     upload_time = "2008-10-13T10:40:0.000Z"
     polar_user = "https://www.polaraccesslink/v3/users/61111666"
     transaction_id = 179879
