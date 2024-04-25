@@ -36,7 +36,7 @@ def create_exercise_transaction(user_id):  # noqa: E501
     :rtype: TransactionLocation
     """
     return TransactionLocation(122,
-    "http://localhost:8080/v3/users/21/physical-information-transactions/32")
+    "http://localhost:8080/v3/users/21/exercise-transactions/32")
 
 
 def get_available_samples(user_id, transaction_id, exercise_id):  # noqa: E501
@@ -53,7 +53,7 @@ def get_available_samples(user_id, transaction_id, exercise_id):  # noqa: E501
 
     :rtype: Samples
     """
-    return 'do some magic!'
+    return Samples()
 
 
 def get_exercise_summary(user_id, transaction_id, exercise_id):  # noqa: E501
