@@ -69,7 +69,21 @@ def get_exercise_summary(user_id, transaction_id, exercise_id):  # noqa: E501
 
     :rtype: Exercise
     """
-    return 'do some magic!'
+    id = 61111666
+    upload_time = "2008-10-13T10:40:0.000Z"
+    polar_user = "https://www.polaraccesslink/v3/users/61111666"
+    transaction_id = 179879
+    device = "Polar M400"
+    device_id = "1111AAAA"
+    start_time = "2008-10-13T10:40:02"
+    start_time_utc_offset = 180
+    duration = "PT2H44M45S"
+    calories = 530
+    distance = 1600.2
+    heart_rate = None
+    training_load = None
+    return Exercise(id, upload_time, polar_user, transaction_id, device, device_id, start_time, start_time_utc_offset,
+                    duration, calories, distance, heart_rate, training_load)
 
 
 def get_fit(user_id, transaction_id, exercise_id):  # noqa: E501
