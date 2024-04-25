@@ -188,5 +188,4 @@ def list_exercises(transaction_id, user_id):  # noqa: E501
 
     :rtype: Exercises
     """
-    return Exercises(["http://localhost:8080/v3/users/12/exercise-transactions/34/exercises/56",
-                     "http://localhost:8080/v3/users/12/exercise-transactions/34/exercises/120"])
+    return Exercises(["http://localhost:8080/v3/users/12/exercise-transactions/34/exercises/56")
